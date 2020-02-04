@@ -1,0 +1,11 @@
+C:\Users\stant\Documents\GC_CSHARP_BOOTCAMP\Labs\Lab11_ATM\Lab11_ATM\bin\Debug\netcoreapp3.1\Lab11_ATM.exe
+C:\Users\stant\Documents\GC_CSHARP_BOOTCAMP\Labs\Lab11_ATM\Lab11_ATM\bin\Debug\netcoreapp3.1\Lab11_ATM.deps.json
+C:\Users\stant\Documents\GC_CSHARP_BOOTCAMP\Labs\Lab11_ATM\Lab11_ATM\bin\Debug\netcoreapp3.1\Lab11_ATM.runtimeconfig.json
+C:\Users\stant\Documents\GC_CSHARP_BOOTCAMP\Labs\Lab11_ATM\Lab11_ATM\bin\Debug\netcoreapp3.1\Lab11_ATM.runtimeconfig.dev.json
+C:\Users\stant\Documents\GC_CSHARP_BOOTCAMP\Labs\Lab11_ATM\Lab11_ATM\bin\Debug\netcoreapp3.1\Lab11_ATM.dll
+C:\Users\stant\Documents\GC_CSHARP_BOOTCAMP\Labs\Lab11_ATM\Lab11_ATM\bin\Debug\netcoreapp3.1\Lab11_ATM.pdb
+C:\Users\stant\Documents\GC_CSHARP_BOOTCAMP\Labs\Lab11_ATM\Lab11_ATM\obj\Debug\netcoreapp3.1\Lab11_ATM.csprojAssemblyReference.cache
+C:\Users\stant\Documents\GC_CSHARP_BOOTCAMP\Labs\Lab11_ATM\Lab11_ATM\obj\Debug\netcoreapp3.1\Lab11_ATM.AssemblyInfoInputs.cache
+C:\Users\stant\Documents\GC_CSHARP_BOOTCAMP\Labs\Lab11_ATM\Lab11_ATM\obj\Debug\netcoreapp3.1\Lab11_ATM.AssemblyInfo.cs
+C:\Users\stant\Documents\GC_CSHARP_BOOTCAMP\Labs\Lab11_ATM\Lab11_ATM\obj\Debug\netcoreapp3.1\Lab11_ATM.dll
+C:\Users\stant\Documents\GC_CSHARP_BOOTCAMP\Labs\Lab11_ATM\Lab11_ATM\obj\Debug\netcoreapp3.1\Lab11_ATM.pdb
