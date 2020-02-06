@@ -9,7 +9,7 @@ namespace Lab11_ATM
         public string Name { get; set; }
         public string Password { private get; set; }
 
-        public double Balance { private get; set; }
+        public double Balance {  get; set; }
 
         public Account() { }
         public Account(string name, string password)
@@ -17,11 +17,18 @@ namespace Lab11_ATM
             Name = name;
             Password = password;
         }
+        public Account(string name, string password, double balance)
+        {
+            Name = name;
+            Password = password;
+            Balance = balance;
+        }
 
         public string GetPassword()
         {
             return Password; 
         }
 
+     
     }
 }

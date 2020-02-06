@@ -11,13 +11,22 @@ namespace Lab11_ATM
 
             List<Account> accounts = new List<Account>
             {
-                {new Account("Joker", "Heath_Ledger" ) }, {new Account("Batman", "BatMobile")}, {new Account("Harely", "Quinn")}
+                {new Account("Joker", "Heath_Ledger", 500.50 ) }, {new Account("Batman", "BatMobile", 2000.46)}, {new Account("Harely", "Quinn", 2.50)}, {new Account("test", "test", 1.50)}
             };
 
+            bool userContinue = true;
+            while (userContinue)
+            {
 
-            string output = RegisterOrLogin($"Please make the following selection: \n1. Register \n2. Login", accounts); 
+                string output = RegisterOrLogin($"Please make the following selection: \n1. Register \n2. Login", accounts);
 
-            PrintList(accounts);
+                bool exitProgram;
+                userContinue = UserOption("Would you like to register or Login? (y/n)", "y", "n");
+
+            }
+
+            Console.WriteLine("Thanks for using the ATM. Goodbye!");
+            //PrintList(accounts);
         }
 
         public static string GetUserInput(string message)
@@ -28,9 +37,9 @@ namespace Lab11_ATM
         public static bool UserOption(string message, string option1_true, string option2_false)
         {
             string input = "";
-            while (input != option1_true && input != option2_false)
+            while (input.ToLower() != option1_true && input.ToLower() != option2_false)
             {
-                input = GetUserInput("Invalid Entry! " + message);
+                input = GetUserInput(message);
             }
             if (input == option1_true)
             {
